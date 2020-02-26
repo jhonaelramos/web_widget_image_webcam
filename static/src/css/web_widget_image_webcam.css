@@ -7,10 +7,10 @@
     color: inherit;
 }
 .o_form_view .o_form_field_image .o_form_image_controls > .fa{
-    margin:3px;
+    margin:0px;
 }
 .live_webcam_outer_div, .webcam_result_outer_div {
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 #webcam_result img {
