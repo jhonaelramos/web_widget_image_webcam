@@ -45,7 +45,7 @@ odoo.define('web_widget_image_webcam.webcam_widget', function(require) {
                             :: Important Note about Chrome 47+ :: < https://github.com/jhuckaby/webcamjs#important-note-for-chrome-47 >
                             Setting "force_flash" to "true" will always run in Adobe Flash fallback mode on Chrome, but it is not desirable.
                         */
-                        force_flash: true,
+                        force_flash: false,
                     });
                 }
             });
