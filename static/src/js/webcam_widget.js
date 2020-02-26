@@ -55,11 +55,11 @@ odoo.define('web_widget_image_webcam.webcam_widget', function(require) {
                 new Dialog(self, {
                     size: 'large',
                     dialogClass: 'o_act_window',
-                    title: _t("WebCam Booth"),
+                    title: _t("Para Tomar Foto Utilice Internet Explorer (No Firefox, No Chrome)"),
                     $content: WebCamDialog,
                     buttons: [
                         {
-                            text: _t("Take Snapshot"), classes: 'btn-primary take_snap_btn',
+                            text: _t("Capturar Foto"), classes: 'btn-primary take_snap_btn',
                             click: function () {
                                 Webcam.snap( function(data) {
                                     img_data = data;
@@ -71,7 +71,7 @@ odoo.define('web_widget_image_webcam.webcam_widget', function(require) {
                             }
                         },
                         {
-                            text: _t("Save & Close"), classes: 'btn-primary save_close_btn', close: true,
+                            text: _t("Guardar y Cerrar"), classes: 'btn-primary save_close_btn', close: true,
                             click: function () {
                                 var img_data_base64 = img_data.split(',')[1];
 
